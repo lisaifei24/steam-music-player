@@ -116,7 +116,7 @@
             justify-content: center;
             color: #c6d4df;
             cursor: pointer;
-            transition: all 0.2s ease;
+            transition: all 0.2 ease;
         }
         
         .control-btn:hover {
@@ -173,7 +173,7 @@
             background: #66c0f4;
             width: 0%;
             border-radius: 3px;
-            transition: width 0.1s;
+            transition: width 0.1;
         }
         
         .volume-container {
@@ -236,7 +236,7 @@
             padding: 12px 15px;
             border-radius: 5px;
             cursor: pointer;
-            transition: all 0.2s ease;
+            transition: all 0.2 ease;
             display: flex;
             align-items: center;
             gap: 12px;
@@ -614,8 +614,8 @@
         });
         
         // 设置初始音量
-        audioPlayer.volume = 0.7;
-        volumeLevel.style.width = '70%';
+        audioPlayer.volume = 0.3;
+        volumeLevel.style.width = '30%';
         
         // 当一首歌播放结束时自动播放下一首
         audioPlayer.addEventListener('ended', () => {
